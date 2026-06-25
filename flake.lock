@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1782116945,
+        "narHash": "sha256-G3tw/IXmaH6IQ2upZvhuN9sG8CkuX+BLuJDpE8hz0Ds=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "34268251cf5547d39063f2c5ea9a196246f7f3a6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-26.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "silero-vad": "silero-vad"
+      }
+    },
+    "silero-vad": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1728467367,
+        "narHash": "sha256-XdETFa2nZyze3KtnGyPJXbRNHy0aFRBsKDzcWxaUYlo=",
+        "owner": "snakers4",
+        "repo": "silero-vad",
+        "rev": "6478567951ae5c9979ad7b234185b5515f4be7a1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "snakers4",
+        "ref": "v5.1.2",
+        "repo": "silero-vad",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

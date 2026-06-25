@@ -1,0 +1,14 @@
+# Nixspr environment configuration
+# Copy this file to .envrc and configure your settings
+# Then run: direnv allow
+
+# Required: Your Gemini API key
+export NIXSPR_GEMINI_API_KEY="your-api-key-here"
+
+# Optional: Gemini model to use (default: gemini-2.5-flash)
+# export NIXSPR_GEMINI_MODEL="gemini-2.5-pro"
+
+# Note: NIXSPR_VAD_MODEL_PATH is automatically set by the nix flake
+
+# Load nix development shell
+use flake
